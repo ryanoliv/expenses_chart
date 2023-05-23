@@ -1,0 +1,37 @@
+.balance {
+  background-color: var(--clr-primary-red);
+  max-width: 540px;
+  border-radius: 20px;
+  padding: 1.65rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22rem;
+  color: var(--clr-neutral-pale-orange);
+  margin-bottom: 1.5rem;
+}
+
+.balance__text-title {
+  margin-bottom: 0.5rem;
+  font-size: var(--fs-body);
+}
+
+.balance__text-amount {
+  font-size: var(--fs-heading-l);
+  font-weight: var(--font-weight-bold);
+}
+
+.balance__img img {
+  max-width: 60px;
+}
+
+@media (max-width: 550px) {
+  .balance {
+    gap: 9.4rem;
+    padding: 1.25rem;
+  }
+
+  .balance__img img {
+    max-width: 60px;
+  }
+}

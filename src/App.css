@@ -1,0 +1,13 @@
+body {
+  background-color: var(--clr-neutral-cream);
+  font-size: var(--fs-body);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-inline: 1rem;
+}
