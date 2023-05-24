@@ -1,5 +1,5 @@
 import { Bar } from "react-chartjs-2";
-import "./weeklygraph.css";
+import "./graph.css";
 import { Chart as ChartJS } from "chart.js/auto";
 import totalData from "../../data.json";
 
