@@ -9,6 +9,7 @@ const WeeklyGraph = ({ data }) => {
       chartElement.length === 1
         ? (event.native.target.style.cursor = "pointer")
         : (event.native.target.style.cursor = "default");
+      console.log("What you looking at?");
     },
     scales: {
       x: {

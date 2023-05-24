@@ -9,7 +9,7 @@ const Balance = () => {
         <p className="balance__text-amount">$921.48</p>
       </div>
       <div className="balance__img">
-        <img src={balanceImg} alt="balance" />
+        <img src={balanceImg} alt="logo" />
       </div>
     </div>
   );
