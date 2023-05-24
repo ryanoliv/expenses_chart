@@ -27,6 +27,16 @@ const WeeklyGraph = ({ data }) => {
       legend: {
         display: false,
       },
+      tooltip: {
+        callbacks: {
+          label: function (context) {
+            if (context.parsed.y !== null) {
+              return " $" + context.parsed.y.toFixed(2);
+            }
+            return null;
+          },
+        },
+      },
     },
   };
 

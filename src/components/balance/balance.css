@@ -25,13 +25,26 @@
   max-width: 60px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
   .balance {
+    width: 85%;
+    gap: unset;
+  }
+}
+
+@media (max-width: 550px) {
+  /* .balance {
     gap: 9.4rem;
     padding: 1.25rem;
-  }
+  } */
 
   .balance__img img {
     max-width: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  .balance {
+    width: 80%;
   }
 }

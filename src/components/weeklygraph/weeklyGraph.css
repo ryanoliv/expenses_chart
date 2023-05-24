@@ -56,3 +56,15 @@
   font-weight: var(--font-weight-bold);
   line-height: 1.6;
 }
+
+@media (max-width: 650px) {
+  .graph {
+    width: 85%;
+  }
+}
+
+@media (max-width: 375px) {
+  .graph {
+    width: 80%;
+  }
+}

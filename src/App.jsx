@@ -15,7 +15,6 @@ function App() {
     labels: data.map((data) => data.day),
     datasets: [
       {
-        label: "Amount",
         data: data.map((data) => data.amount),
         backgroundColor: colors,
         hoverBackgroundColor: hoveredColors,
